@@ -1,11 +1,10 @@
 
-from django.urls import path
-
+from django.urls import pat
 from . import views
 
 urlpatterns = [
-    path('', views.home, name="home"),
-    path('contact/', views.contact, name='contact'),
+    path('', views.home),
+    path('contact/', views.contact),
     path('greet/<str:name>/', views.greet_by_name),
 ]
 
