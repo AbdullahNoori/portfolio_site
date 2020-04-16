@@ -5,7 +5,7 @@ from django.shortcuts import render
 # Create your views here.
 def home(request): 
     # print ('portfolio')
-    return HttpResponse("portfolio home")
+    return HttpResponse("portfolio home page")
 
 def contact(request):
     return HttpRequest("Contact me")
