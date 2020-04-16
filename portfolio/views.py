@@ -8,7 +8,7 @@ def home(request):
     return HttpResponse("portfolio home page")
 
 def contact(request):
-    return HttpRequest("Contact me")
+    return HttpResponse("Contact me")
 
 def greet_by_name(request, name):
     return HttpResponse(f"Hello {name}!")
