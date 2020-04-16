@@ -7,3 +7,5 @@ We use two separate urls.py files so that if we have a seperate set of rules we 
 
 When is it desirable to split our code over multiple apps? Why would we want to do so?
 It is desirable to split our code over multiple apps because it helps apply different features that might not be able to have the same rules as another app. It is easier to debug our code and helps with keeping our information secure, scalable and generally easier to use than Flask or Node.
+
+.
